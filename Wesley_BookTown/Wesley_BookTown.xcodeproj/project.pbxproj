@@ -15,6 +15,9 @@
 		2B5C719E221208BB002D55AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C719D221208BB002D55AA /* Assets.xcassets */; };
 		2B5C71A1221208BB002D55AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C719F221208BB002D55AA /* LaunchScreen.storyboard */; };
 		2B5C71A922123AB0002D55AA /* asset in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C71A822123AB0002D55AA /* asset */; };
+		2B7816DD2225F5D8001B88D6 /* borderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7816DC2225F5D8001B88D6 /* borderButton.swift */; };
+		2B7816E12226F0FB001B88D6 /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7816E02226F0FB001B88D6 /* loginController.swift */; };
+		2B7816E32229A9CC001B88D6 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7816E22229A9CC001B88D6 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		2B5C71A0221208BB002D55AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5C71A2221208BB002D55AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5C71A822123AB0002D55AA /* asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = asset; sourceTree = "<group>"; };
+		2B7816DC2225F5D8001B88D6 /* borderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borderButton.swift; sourceTree = "<group>"; };
+		2B7816E02226F0FB001B88D6 /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
+		2B7816E22229A9CC001B88D6 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +71,13 @@
 				2B5C7195221208B9002D55AA /* ViewController.swift */,
 				2B01A7832224559000FBA900 /* DesignableTextField.swift */,
 				2B5C7197221208B9002D55AA /* Main.storyboard */,
+				2B7816E22229A9CC001B88D6 /* PopUpViewController.swift */,
 				2B5C719D221208BB002D55AA /* Assets.xcassets */,
 				2B5C719F221208BB002D55AA /* LaunchScreen.storyboard */,
 				2B5C71A2221208BB002D55AA /* Info.plist */,
 				2B5C719A221208B9002D55AA /* Wesley_BookTown.xcdatamodeld */,
+				2B7816DC2225F5D8001B88D6 /* borderButton.swift */,
+				2B7816E02226F0FB001B88D6 /* loginController.swift */,
 			);
 			path = Wesley_BookTown;
 			sourceTree = "<group>";
@@ -147,7 +156,10 @@
 			files = (
 				2B5C7196221208B9002D55AA /* ViewController.swift in Sources */,
 				2B01A7842224559000FBA900 /* DesignableTextField.swift in Sources */,
+				2B7816E32229A9CC001B88D6 /* PopUpViewController.swift in Sources */,
 				2B5C7194221208B9002D55AA /* AppDelegate.swift in Sources */,
+				2B7816E12226F0FB001B88D6 /* loginController.swift in Sources */,
+				2B7816DD2225F5D8001B88D6 /* borderButton.swift in Sources */,
 				2B5C719C221208B9002D55AA /* Wesley_BookTown.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93YUWMACQF;
 				INFOPLIST_FILE = Wesley_BookTown/Info.plist;
@@ -312,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93YUWMACQF;
 				INFOPLIST_FILE = Wesley_BookTown/Info.plist;

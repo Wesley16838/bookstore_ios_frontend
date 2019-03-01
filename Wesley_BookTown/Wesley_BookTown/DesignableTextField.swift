@@ -34,18 +34,18 @@ class DesignableTextField: UITextField {
         if let image = leftImage{
             leftViewMode = .always
             
-            let imageView = UIImageView(frame: CGRect(x:leftPadding, y:0, width:16, height: 12))
+            let imageView = UIImageView(frame: CGRect(x:leftPadding, y:0, width:30, height: 30))
             imageView.image = image
             imageView.tintColor = tintColor
             
-            var width = leftPadding + 20
+            var width = leftPadding + 18
             
             if borderStyle == UITextField.BorderStyle.none || borderStyle == UITextField.BorderStyle.line{
                 width = width + 17
             }
             
             
-            let view = UIView(frame: CGRect(x:0, y:0, width:width, height: 20))
+            let view = UIView(frame: CGRect(x:0, y:0, width:width, height: 30))
             view.addSubview(imageView)
             leftView = view
             

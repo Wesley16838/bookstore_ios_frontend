@@ -15,9 +15,12 @@
 		2B5C719E221208BB002D55AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C719D221208BB002D55AA /* Assets.xcassets */; };
 		2B5C71A1221208BB002D55AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C719F221208BB002D55AA /* LaunchScreen.storyboard */; };
 		2B5C71A922123AB0002D55AA /* asset in Resources */ = {isa = PBXBuildFile; fileRef = 2B5C71A822123AB0002D55AA /* asset */; };
+		2B67707D222AFB4D00D65AF7 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67707C222AFB4D00D65AF7 /* CustomTabBarViewController.swift */; };
+		2B67707F222AFD9F00D65AF7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67707E222AFD9F00D65AF7 /* ProfileViewController.swift */; };
+		2B677083223B673600D65AF7 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B677082223B673600D65AF7 /* SearchController.swift */; };
+		2B677085223B71CD00D65AF7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B677084223B71CD00D65AF7 /* TableViewCell.swift */; };
 		2B7816DD2225F5D8001B88D6 /* borderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7816DC2225F5D8001B88D6 /* borderButton.swift */; };
 		2B7816E12226F0FB001B88D6 /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7816E02226F0FB001B88D6 /* loginController.swift */; };
-		2B7816E32229A9CC001B88D6 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7816E22229A9CC001B88D6 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +34,12 @@
 		2B5C71A0221208BB002D55AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5C71A2221208BB002D55AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5C71A822123AB0002D55AA /* asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = asset; sourceTree = "<group>"; };
+		2B67707C222AFB4D00D65AF7 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		2B67707E222AFD9F00D65AF7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2B677082223B673600D65AF7 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		2B677084223B71CD00D65AF7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		2B7816DC2225F5D8001B88D6 /* borderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borderButton.swift; sourceTree = "<group>"; };
 		2B7816E02226F0FB001B88D6 /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
-		2B7816E22229A9CC001B88D6 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +77,16 @@
 				2B5C7195221208B9002D55AA /* ViewController.swift */,
 				2B01A7832224559000FBA900 /* DesignableTextField.swift */,
 				2B5C7197221208B9002D55AA /* Main.storyboard */,
-				2B7816E22229A9CC001B88D6 /* PopUpViewController.swift */,
 				2B5C719D221208BB002D55AA /* Assets.xcassets */,
 				2B5C719F221208BB002D55AA /* LaunchScreen.storyboard */,
 				2B5C71A2221208BB002D55AA /* Info.plist */,
 				2B5C719A221208B9002D55AA /* Wesley_BookTown.xcdatamodeld */,
 				2B7816DC2225F5D8001B88D6 /* borderButton.swift */,
 				2B7816E02226F0FB001B88D6 /* loginController.swift */,
+				2B67707C222AFB4D00D65AF7 /* CustomTabBarViewController.swift */,
+				2B67707E222AFD9F00D65AF7 /* ProfileViewController.swift */,
+				2B677082223B673600D65AF7 /* SearchController.swift */,
+				2B677084223B71CD00D65AF7 /* TableViewCell.swift */,
 			);
 			path = Wesley_BookTown;
 			sourceTree = "<group>";
@@ -156,10 +165,13 @@
 			files = (
 				2B5C7196221208B9002D55AA /* ViewController.swift in Sources */,
 				2B01A7842224559000FBA900 /* DesignableTextField.swift in Sources */,
-				2B7816E32229A9CC001B88D6 /* PopUpViewController.swift in Sources */,
+				2B67707D222AFB4D00D65AF7 /* CustomTabBarViewController.swift in Sources */,
 				2B5C7194221208B9002D55AA /* AppDelegate.swift in Sources */,
 				2B7816E12226F0FB001B88D6 /* loginController.swift in Sources */,
+				2B677085223B71CD00D65AF7 /* TableViewCell.swift in Sources */,
+				2B67707F222AFD9F00D65AF7 /* ProfileViewController.swift in Sources */,
 				2B7816DD2225F5D8001B88D6 /* borderButton.swift in Sources */,
+				2B677083223B673600D65AF7 /* SearchController.swift in Sources */,
 				2B5C719C221208B9002D55AA /* Wesley_BookTown.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

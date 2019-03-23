@@ -7,9 +7,8 @@ Furthermore, app covers security. the user will get the JWT token from the serve
 
 Install Xcode
 
-```
 For mac [xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
-```
+For Window , it is not free [Plan](https://portal.macincloud.com/select/#/plans), [macincloud](https://www.macincloud.com/)
 
 ### Installing
 

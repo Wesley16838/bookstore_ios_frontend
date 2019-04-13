@@ -21,6 +21,7 @@
 		2B677085223B71CD00D65AF7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B677084223B71CD00D65AF7 /* TableViewCell.swift */; };
 		2B7816DD2225F5D8001B88D6 /* borderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7816DC2225F5D8001B88D6 /* borderButton.swift */; };
 		2B7816E12226F0FB001B88D6 /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7816E02226F0FB001B88D6 /* loginController.swift */; };
+		2B7C884A2260506300187730 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7C88492260506300187730 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		2B677084223B71CD00D65AF7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		2B7816DC2225F5D8001B88D6 /* borderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borderButton.swift; sourceTree = "<group>"; };
 		2B7816E02226F0FB001B88D6 /* loginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
+		2B7C88492260506300187730 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				2B67707E222AFD9F00D65AF7 /* ProfileViewController.swift */,
 				2B677082223B673600D65AF7 /* SearchController.swift */,
 				2B677084223B71CD00D65AF7 /* TableViewCell.swift */,
+				2B7C88492260506300187730 /* DetailViewController.swift */,
 			);
 			path = Wesley_BookTown;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7C884A2260506300187730 /* DetailViewController.swift in Sources */,
 				2B5C7196221208B9002D55AA /* ViewController.swift in Sources */,
 				2B01A7842224559000FBA900 /* DesignableTextField.swift in Sources */,
 				2B67707D222AFB4D00D65AF7 /* CustomTabBarViewController.swift in Sources */,

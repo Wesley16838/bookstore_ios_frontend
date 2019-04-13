@@ -103,9 +103,15 @@ class ViewController: UIViewController {
         let fullname = fullName.text;
         let mail = email.text;
         let pass = password.text;
-        
+        let repass = repassword.text
         if(fullname == "" || mail == "" || pass == ""){
             let alert = UIAlertController(title:"Error", message:"Please fill all fields", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title:"Ok", style:UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            
+        }else if(repass != pass){
+            
+            let alert = UIAlertController(title:"Re-password doesn't match password", message:"Please input re-password again.", preferredStyle: UIAlertController.Style.alert)
             alert.addAction(UIAlertAction(title:"Ok", style:UIAlertAction.Style.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
             

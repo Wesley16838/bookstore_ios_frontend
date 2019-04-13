@@ -21,7 +21,7 @@ For Window , it is not free [Plan](https://portal.macincloud.com/select/#/plans)
 
 4.Cart
 
-<img src="image/xcode.png">
+<img src="https://github.com/Wesley16838/bookstore_ios_frontend/blob/master/image/Screen%20Shot%202019-03-23%20at%207.58.36%20PM.png">
 
 ## Running the tests
 
